@@ -11,6 +11,7 @@ Example:
 
 <code>
   python main.py -e poop@gmail.com
+<span>
 Found 273 entries for poop@gmail.com
 Date: 2016-01-13 14:30:20  Leak: http://pastebin.com/raw/jHzLTQ8H <br>
 Date: 2016-01-15 05:24:17  Leak: http://pastebin.com/raw/ee0QavMX <br>
@@ -21,7 +22,7 @@ Date: 2016-01-16 17:51:05  Leak: http://pastebin.com/raw/nQx0tqdW <br>
 Date: 2016-01-18 10:45:12  Leak: http://pastebin.com/raw/fJaC0QyC <br>
 Date: 2016-01-18 13:30:21  Leak: http://pastebin.com/raw/ZWKzpdBi <br>
 Date: 2016-01-19 02:15:16  Leak: http://pastebin.com/raw/JaK1xFZr <br>
-
+</span>
 </code>
 
 
