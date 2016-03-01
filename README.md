@@ -1,10 +1,13 @@
 # Leaky
+# Thanks https://github.com/mikepicard for allowing me to use his dnshistory code :D love you long time 
 Searches leaked dbs for domains and emails
 
 python main.py -h
 for help
 
 Example:
+
+<code>
   python main.py -e poop@gmail.com
 Found 273 entries for poop@gmail.com
 Date: 2016-01-13 14:30:20  Leak: http://pastebin.com/raw/jHzLTQ8H 
@@ -16,155 +19,7 @@ Date: 2016-01-16 17:51:05  Leak: http://pastebin.com/raw/nQx0tqdW
 Date: 2016-01-18 10:45:12  Leak: http://pastebin.com/raw/fJaC0QyC 
 Date: 2016-01-18 13:30:21  Leak: http://pastebin.com/raw/ZWKzpdBi 
 Date: 2016-01-19 02:15:16  Leak: http://pastebin.com/raw/JaK1xFZr 
-Date: 2016-01-20 19:24:12  Leak: http://pastebin.com/raw/BPSeGZqa 
-Date: 2016-01-21 23:06:24  Leak: http://pastebin.com/raw/5H0fuSVU 
-Date: 2016-01-22 12:27:06  Leak: http://pastebin.com/raw/jp8yX1Fs 
-Date: 2016-01-23 18:45:11  Leak: http://pastebin.com/raw/qFCHTG4g 
-Date: 2016-01-24 10:57:06  Leak: http://pastebin.com/raw/ZADGaYTh 
-Date: 2016-01-25 05:21:24  Leak: http://pastebin.com/raw/YaxGw9L6 
-Date: 2016-01-27 10:45:22  Leak: http://pastebin.com/raw/hRwdab2D 
-Date: 2016-01-27 22:00:15  Leak: http://pastebin.com/raw/PgzqEEgW 
-Date: 2016-01-29 05:30:04  Leak: http://pastebin.com/raw/eqGrsWwY 
-Date: 2016-01-29 16:06:12  Leak: http://pastebin.com/raw/jZxLHZq6 
-Date: 2016-01-29 19:21:14  Leak: http://pastebin.com/raw/du6Dz42G 
-Date: 2016-01-30 18:24:05  Leak: http://pastebin.com/raw/97H9TPNN 
-Date: 2016-02-01 10:42:07  Leak: http://pastebin.com/raw/Uzvr1TzL 
-Date: 2016-02-03 00:09:21  Leak: http://pastebin.com/raw/U8xzcirD 
-Date: 2016-02-06 19:51:05  Leak: http://pastebin.com/raw/ZU9D8Mhg 
-Date: 2016-02-07 14:15:20  Leak: http://pastebin.com/raw/c2ERTkhv 
-Date: 2016-02-07 19:42:14  Leak: http://pastebin.com/raw/mA79WQSK 
-Date: 2016-02-09 04:21:12  Leak: http://pastebin.com/raw/XwSFc25G 
-Date: 2016-02-09 09:24:17  Leak: http://pastebin.com/raw/xXAtejuL 
-Date: 2016-02-09 10:21:03  Leak: http://pastebin.com/raw/055zf1jW 
-Date: 2016-02-10 22:03:17  Leak: http://pastebin.com/raw/afW7A8UZ 
-Date: 2016-02-13 09:57:22  Leak: http://pastebin.com/raw/jnqddz0g 
-Date: 2016-02-13 12:21:16  Leak: http://pastebin.com/raw/GUabQUV9 
-Date: 2016-02-14 16:54:14  Leak: http://pastebin.com/raw/Frhj96g2 
-Date: 2016-02-14 17:18:15  Leak: http://pastebin.com/raw/Aqtu2vGk 
-Date: 2016-02-14 17:21:38  Leak: http://pastebin.com/raw/44S8LpdA 
-Date: 2016-02-16 04:18:34  Leak: http://pastebin.com/raw/sdmGKjf8 
-Date: 2016-02-16 13:51:18  Leak: http://pastebin.com/raw/QhWdCACu 
-Date: 2016-02-16 14:06:40  Leak: http://pastebin.com/raw/yRctTBhj 
-Date: 2016-02-16 17:06:42  Leak: http://pastebin.com/raw/hvGJdc7b 
-Date: 2016-02-16 17:18:17  Leak: http://pastebin.com/raw/SLHg27bA 
-Date: 2016-02-16 22:54:37  Leak: http://pastebin.com/raw/6F4GD4rH 
-Date: 2016-02-17 04:48:18  Leak: http://pastebin.com/raw/kz53nLwH 
-Date: 2016-02-18 00:27:12  Leak: http://pastebin.com/raw/38ehjVfs 
-Date: 2016-02-18 10:57:56  Leak: http://pastebin.com/raw/D0wwUDm8 
-Date: 2016-02-20 13:54:05  Leak: http://pastebin.com/raw/DP5Gsvxc 
-Date: 2016-02-21 10:00:08  Leak: http://pastebin.com/raw/aTHN2W0P 
-Date: 2016-02-21 14:24:31  Leak: http://pastebin.com/raw/7t806dK2 
-Date: 2016-02-21 18:15:08  Leak: http://pastebin.com/raw/B0VzHfZ1 
-Date: 2016-02-21 18:18:08  Leak: http://pastebin.com/raw/Bz2hyz2H 
-Date: 2016-02-23 04:33:08  Leak: http://pastebin.com/raw/Hzx8Waev 
-Date: 2015-10-21 18:00:31  Leak: http://pastebin.com/raw/19AdVkue 
-Date: 2015-11-05 17:54:19  Leak: http://pastebin.com/raw/4fTVg6sS 
-Date: 2015-11-07 10:20:38  Leak: http://pastebin.com/raw/3240249ca 
-Date: 2015-11-08 11:51:41  Leak: http://pastebin.com/raw/3242850ca 
-Date: 2015-11-08 17:00:10  Leak: http://pastebin.com/raw/3243769ca 
-Date: 2015-11-09 09:10:15  Leak: http://pastebin.com/raw/3244791ca 
-Date: 2015-11-10 00:40:17  Leak: http://pastebin.com/raw/3245718ca 
-Date: 2015-11-10 01:20:29  Leak: http://pastebin.com/raw/3245803ca 
-Date: 2015-11-10 13:36:22  Leak: http://pastebin.com/raw/dWhgZv33 
-Date: 2015-11-15 17:45:12  Leak: http://pastebin.com/raw/zj4LtifQ 
-Date: 2015-11-17 09:57:06  Leak: http://pastebin.com/raw/ibCAudHk 
-Date: 2015-11-18 17:36:09  Leak: http://pastebin.com/raw/NpRNirxt 
-Date: 2015-11-21 03:42:06  Leak: http://pastebin.com/raw/sA419xju 
-Date: 2015-11-23 22:42:09  Leak: http://pastebin.com/raw/7rijvHzq 
-Date: 2015-11-24 01:27:04  Leak: http://pastebin.com/raw/WukQ9SMS 
-Date: 2015-11-29 17:27:12  Leak: http://pastebin.com/raw/JGuJnmsq 
-Date: 2015-11-30 04:21:11  Leak: http://pastebin.com/raw/BM8whb0Z 
-Date: 2015-11-30 19:36:12  Leak: http://pastebin.com/raw/54wByxJd 
-Date: 2015-12-01 18:33:17  Leak: http://pastebin.com/raw/iA4j6GVs 
-Date: 2015-12-10 03:54:05  Leak: http://pastebin.com/raw/Z261Bas3 
-Date: 2015-12-18 12:15:16  Leak: http://pastebin.com/raw/NDNnSmQg 
-Date: 2015-12-20 07:54:12  Leak: http://pastebin.com/raw/Q7GfNmaB 
-Date: 2015-12-20 07:57:10  Leak: http://pastebin.com/raw/MgeuFdDn 
-Date: 2015-12-20 08:15:13  Leak: http://pastebin.com/raw/48uA6mPx 
-Date: 2015-12-20 08:18:16  Leak: http://pastebin.com/raw/yJKeg6Pk 
-Date: 2015-12-20 08:24:05  Leak: http://pastebin.com/raw/qieDkjVL 
-Date: 2015-12-20 13:57:19  Leak: http://pastebin.com/raw/PjVLUshh 
-Date: 2015-12-20 17:36:04  Leak: http://pastebin.com/raw/tjpda5ZG 
-Date: 2015-12-21 09:18:07  Leak: http://pastebin.com/raw/XAhxEPUM 
-Date: 2015-12-22 00:06:05  Leak: http://pastebin.com/raw/vvnS6cLb 
-Date: 2015-12-22 11:21:13  Leak: http://pastebin.com/raw/QMMJcNPE 
-Date: 2015-12-24 10:12:10  Leak: http://pastebin.com/raw/9ke9QS8G 
-Date: 2015-12-27 12:42:12  Leak: http://pastebin.com/raw/aCsF1WMG 
-Date: 2015-12-28 09:48:15  Leak: http://pastebin.com/raw/Hw9QGdH3 
-Date: 2015-12-28 18:15:08  Leak: http://pastebin.com/raw/GY94TuMS 
-Date: 2015-12-29 03:51:10  Leak: http://pastebin.com/raw/eARBYrEe 
-Date: 2015-12-30 15:36:06  Leak: http://pastebin.com/raw/vQnAMdZ1 
-Date: 2015-12-31 01:24:09  Leak: http://pastebin.com/raw/kR5EfN7C 
-Date: 2015-12-31 21:03:07  Leak: http://pastebin.com/raw/UwxbwK1i 
-Date: 2015-12-31 21:09:03  Leak: http://pastebin.com/raw/1MtfJFDL 
-Date: 2016-01-04 17:27:06  Leak: http://pastebin.com/raw/SPwEWwfc 
-Date: 2016-01-08 16:18:11  Leak: http://pastebin.com/raw/yMcePF4F 
-Date: 2016-01-08 20:00:19  Leak: http://pastebin.com/raw/vGqGrxDX 
-Date: 2016-01-08 21:06:14  Leak: http://pastebin.com/raw/Jz0ah66e 
-Date: 2016-01-09 09:30:06  Leak: http://pastebin.com/raw/gPyJ3sGb 
-Date: 2016-01-09 15:57:20  Leak: http://pastebin.com/raw/TnBwPNkV 
-Date: 2016-01-09 16:51:11  Leak: http://pastebin.com/raw/6NNCLGk3 
-Date: 2016-01-09 17:03:04  Leak: http://pastebin.com/raw/r2EQ9BFh 
-Date: 2016-01-09 22:48:07  Leak: http://pastebin.com/raw/4cx8JnD3 
-Date: 2016-01-10 15:09:19  Leak: http://pastebin.com/raw/WKVw1RNA 
-Date: 2015-07-17 06:25:04  Leak: http://pastebin.com/raw/UK1Ba3UB 
-Date: 2015-07-19 12:26:03  Leak: http://pastebin.com/raw/vhfwC1GP 
-Date: 2015-07-19 14:55:04  Leak: http://pastebin.com/raw/gd7D7M4M 
-Date: 2015-07-19 22:41:09  Leak: http://pastebin.com/raw/E3D2jjY8 
-Date: 2015-07-19 23:38:05  Leak: http://pastebin.com/raw/QtaMDeFT 
-Date: 2015-07-20 16:22:06  Leak: http://pastebin.com/raw/W3m0qvYD 
-Date: 2015-07-24 10:46:05  Leak: http://pastebin.com/raw/9q8WLK1m 
-Date: 2015-07-29 15:26:10  Leak: http://pastebin.com/raw/GKi0kxvv 
-Date: 2015-07-29 23:27:05  Leak: http://pastebin.com/raw/AbAER6um 
-Date: 2015-07-31 17:26:07  Leak: http://pastebin.com/raw/brT3yhDj 
-Date: 2015-08-01 20:41:05  Leak: http://pastebin.com/raw/PiYSaJb5 
-Date: 2015-08-04 06:17:04  Leak: http://pastebin.com/raw/nZY62kvF 
-Date: 2015-08-08 10:39:06  Leak: http://pastebin.com/raw/YDh7fJGi 
-Date: 2015-08-18 12:46:04  Leak: http://pastebin.com/raw/HgE1UYRH 
-Date: 2015-08-18 20:19:03  Leak: http://pastebin.com/raw/K7fAunvW 
-Date: 2015-08-23 20:23:02  Leak: http://pastebin.com/raw/tt4nYzAP 
-Date: 2015-08-24 03:28:06  Leak: http://pastebin.com/raw/jBYsXXwc 
-Date: 2015-08-25 02:27:03  Leak: http://pastebin.com/raw/tTTMm45k 
-Date: 2015-08-27 13:44:03  Leak: http://pastebin.com/raw/yCCa7Qea 
-Date: 2015-08-30 02:04:04  Leak: http://pastebin.com/raw/gG4K50N8 
-Date: 2015-08-30 10:02:03  Leak: http://pastebin.com/raw/6JFpcmNr 
-Date: 2015-08-30 13:07:03  Leak: http://pastebin.com/raw/rBRATcxt 
-Date: 2015-08-30 16:00:03  Leak: http://pastebin.com/raw/rwgVEDVW 
-Date: 2015-08-31 03:28:03  Leak: http://pastebin.com/raw/mcUE9t2C 
-Date: 2015-09-04 11:23:04  Leak: http://pastebin.com/raw/4gp7pBiQ 
-Date: 2015-09-05 16:17:03  Leak: http://pastebin.com/raw/GxDtAtMd 
-Date: 2015-09-07 13:14:09  Leak: http://pastebin.com/raw/XEgwvh9j 
-Date: 2015-09-08 00:33:03  Leak: http://pastebin.com/raw/f391JB09 
-Date: 2015-09-12 17:56:04  Leak: http://pastebin.com/raw/6T4RTfUv 
-Date: 2015-09-12 18:00:08  Leak: http://pastebin.com/raw/YYGQ3Jdx 
-Date: 2015-09-17 11:18:06  Leak: http://pastebin.com/raw/phYzAmVY 
-Date: 2015-09-17 14:28:07  Leak: http://pastebin.com/raw/ysa9qGer 
-Date: 2015-09-17 17:52:09  Leak: http://pastebin.com/raw/Na8FmRUp 
-Date: 2015-09-19 14:40:04  Leak: http://pastebin.com/raw/QfnXhxB6 
-Date: 2015-09-20 11:28:15  Leak: http://pastebin.com/raw/iSanDG26 
-Date: 2015-09-21 21:36:05  Leak: http://pastebin.com/raw/zegjeWq0 
-Date: 2015-09-24 01:40:16  Leak: http://pastebin.com/raw/3172722ca 
-Date: 2015-09-25 16:52:08  Leak: http://pastebin.com/raw/xRbcVg6u 
-Date: 2015-09-27 07:22:05  Leak: http://pastebin.com/raw/J8usjWbt 
-Date: 2015-09-28 06:46:05  Leak: http://pastebin.com/raw/wkkDURUP 
-Date: 2015-09-28 20:42:11  Leak: http://pastebin.com/raw/gYnsjM37 
-Date: 2015-10-01 05:22:08  Leak: http://pastebin.com/raw/rhnHPD7m 
-Date: 2015-10-01 17:48:08  Leak: http://pastebin.com/raw/eiaDhueV 
-Date: 2015-10-02 07:44:05  Leak: http://pastebin.com/raw/XSr4AXYy 
-Date: 2015-10-05 03:48:05  Leak: http://pastebin.com/raw/ciebX2Wx 
-Date: 2015-10-08 19:58:07  Leak: http://pastebin.com/raw/Cz62CxPy 
-Date: 2015-10-10 12:08:04  Leak: http://pastebin.com/raw/SCLNRHJQ 
-Date: 2015-10-10 12:54:09  Leak: http://pastebin.com/raw/YJTrxjpm 
-Date: 2015-10-11 00:30:06  Leak: http://pastebin.com/raw/vuC3RzdA 
-Date: 2015-10-11 00:50:07  Leak: http://pastebin.com/raw/wxNCsGjC 
-Date: 2015-05-24 20:40:05  Leak: http://pastebin.com/raw/i7y2sUd1 
-Date: 2015-05-21 09:54:06  Leak: http://pastebin.com/raw/sAJ170zj 
-Date: 2015-05-27 06:01:08  Leak: http://pastebin.com/raw/7PxqZeWr 
-Date: 2015-05-22 09:49:03  Leak: http://pastebin.com/raw/k3m9CdGW 
-Date: 2015-05-31 12:22:10  Leak: http://pastebin.com/raw/tzX4JDm8 
-Date: 2015-05-30 04:41:07  Leak: http://pastebin.com/raw/CRHk0Atu 
-Date: 2015-06-04 07:52:02  Leak: http://pastebin.com/raw/z76vE5fg 
-Date: 2015-06-04 20:24:04  Leak: http://pastebin.com/raw/3sdf53FA 
-Date: 2015-06-05 11:08:03  Leak: http://pastebin.com/raw/GZHqsmNE 
-Date: 2015-06-11 15:53:06  Leak: http://pastebin.com/raw/VTsT8fwk 
-Date: 2015-06-15 17:33:14  Leak: http://pastebin.com/raw/HR0t40wv 
+
+</code>
+
+

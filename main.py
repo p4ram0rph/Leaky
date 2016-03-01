@@ -58,4 +58,4 @@ elif args["d"]:
 		print e
 
 else:
-	print "python %s -h for help noob" % sys.argv[0]
+	print "python %s -h for usage" % sys.argv[0]
