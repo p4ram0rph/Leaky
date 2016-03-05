@@ -8,9 +8,8 @@ python main.py -h
 for help
 
 Example:
+ python main.py -e poop@gmail.com
 
-<code>
-  python main.py -e poop@gmail.com
 <span>
 Found 273 entries for poop@gmail.com
 Date: 2016-01-13 14:30:20  Leak: http://pastebin.com/raw/jHzLTQ8H <br>
@@ -23,6 +22,6 @@ Date: 2016-01-18 10:45:12  Leak: http://pastebin.com/raw/fJaC0QyC <br>
 Date: 2016-01-18 13:30:21  Leak: http://pastebin.com/raw/ZWKzpdBi <br>
 Date: 2016-01-19 02:15:16  Leak: http://pastebin.com/raw/JaK1xFZr <br>
 </span>
-</code>
+
 
 

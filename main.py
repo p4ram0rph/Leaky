@@ -52,6 +52,7 @@ elif args["e"]:
 elif args["d"]:
 	domain = args["d"]
 	try:
+		viewdns.search(domain)
 		psb.search(domain)
 		psb.getResults()
 	except Exception, e:
