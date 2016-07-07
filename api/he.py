@@ -1,17 +1,17 @@
 import requests
 import json
 
-class HEsearch( object ):
+class HEsearch(  ):
 
 	def __init__( self ):
-		self.api_url 		= "https://hacked-emails.com/api?q="
+		self.api_url = "https://hacked-emails.com/api?q="
 
 
 	def search( self, searchQuery ):
-		self.url 			= '%s%s' % (self.api_url, searchQuery)
+		self.url = '%s%s' % (self.api_url, searchQuery)
 		print self.url
 		try:
-			self.results 	= requests.get(str(self.url), verify=True)
+			self.results = requests.get(str(self.url), verify=True)
 			print self.results
 		except Exception, e:
 			pass
@@ -20,8 +20,17 @@ class HEsearch( object ):
 		js = json.loads((self.results.text))
 		if js["status"] == "found":
 			print "Found %d entries for %s" % (js["results"], js["query"])
-			for i in js["data"]:
-				print "Date: %s  Leak: %s " % (js["data"][i]["date_leaked"], js["data"][i]["source_url"])
+
+			#print js["data"][0]
+
+
+			for i in xrange(len(js["data"])):
+				print "Title: %s Date: %s  Leak: %s Details: %s " %(
+				 js["data"][i]["title"],
+				 js["data"][i]["date_leaked"],
+				 js["data"][i]["source_url"], 
+				 js["data"][i]["details"]
+				 )
 
 
 
